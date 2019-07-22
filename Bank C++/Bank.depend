@@ -1,0 +1,116 @@
+# depslib dependency file v1.0
+1528915574 source:c:\users\marta\studia\programowanie obiektowe\bank\main.cpp
+	<iostream>
+	<sstream>
+	<vector>
+	<string>
+	<algorithm>
+	<cstdlib>
+
+1528917266 source:c:\users\marta\studia\programowanie obiektowe\bank\bankomat.cpp
+
+1528964279 source:c:\users\marta\studia\programowanie obiektowe\bank\kartaplatnicza.cpp
+	<iostream>
+	<sstream>
+	<vector>
+	<string>
+	<algorithm>
+	<cstdlib>
+	"KartaPlatnicza.hpp"
+
+1528917214 source:c:\users\marta\studia\programowanie obiektowe\bank\klient.cpp
+
+1528917147 source:c:\users\marta\studia\programowanie obiektowe\bank\konto.cpp
+
+1528966755 source:c:\users\marta\studia\programowanie obiektowe\bank\kontojunior.cpp
+	<iostream>
+	<sstream>
+	<vector>
+	<string>
+	<algorithm>
+	<cstdlib>
+	"KontoJunior.hpp"
+
+1528917186 source:c:\users\marta\studia\programowanie obiektowe\bank\kontoosobiste.cpp
+
+1528917169 source:c:\users\marta\studia\programowanie obiektowe\bank\kontooszczednosciowe.cpp
+
+1528917247 source:c:\users\marta\studia\programowanie obiektowe\bank\produkt.cpp
+
+1528964232 source:c:\users\marta\studia\programowanie obiektowe\bank\bank.cpp
+	<iostream>
+	<sstream>
+	<vector>
+	<string>
+	<algorithm>
+	<cstdlib>
+	"Bank.hpp"
+
+1528918899 c:\users\marta\studia\programowanie obiektowe\bank\bank.h
+	<iostream>
+	<sstream>
+	<vector>
+	<string>
+	<algorithm>
+	<cstdlib>
+
+1528917280 source:c:\users\marta\studia\programowanie obiektowe\bank\zakupy.cpp
+
+1528966405 c:\users\marta\studia\programowanie obiektowe\bank\bank.hpp
+	<iostream>
+	<sstream>
+	<vector>
+	<string>
+	<algorithm>
+	<cstdlib>
+	"Klient.hpp"
+
+1528967602 c:\users\marta\studia\programowanie obiektowe\bank\klient.hpp
+	<iostream>
+	<sstream>
+	<vector>
+	<string>
+	<algorithm>
+	<cstdlib>
+	"Bank.hpp"
+	"KontoOsobiste.hpp"
+
+1528965523 c:\users\marta\studia\programowanie obiektowe\bank\kartaplatnicza.hpp
+	<iostream>
+	<sstream>
+	<vector>
+	<string>
+	<algorithm>
+	<cstdlib>
+	"KontoOsobiste.hpp"
+
+1528967404 c:\users\marta\studia\programowanie obiektowe\bank\kontoosobiste.hpp
+	<iostream>
+	<sstream>
+	<vector>
+	<string>
+	<algorithm>
+	<cstdlib>
+	"Bank.hpp"
+	"Konto.hpp"
+
+1528967254 c:\users\marta\studia\programowanie obiektowe\bank\konto.hpp
+	<iostream>
+	<sstream>
+	<vector>
+	<string>
+	<algorithm>
+	<cstdlib>
+	"Bank.hpp"
+	"Klient.hpp"
+
+1528966481 c:\users\marta\studia\programowanie obiektowe\bank\kontojunior.hpp
+	<iostream>
+	<sstream>
+	<vector>
+	<string>
+	<algorithm>
+	<cstdlib>
+	"Bank.hpp"
+	"Konto.hpp"
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Bank" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Bank" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Bank" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Bank.cpp" />
+		<Unit filename="Bank.hpp" />
+		<Unit filename="Bankomat.cpp" />
+		<Unit filename="Bankomat.hpp" />
+		<Unit filename="KartaPlatnicza.cpp" />
+		<Unit filename="KartaPlatnicza.hpp" />
+		<Unit filename="Klient.cpp" />
+		<Unit filename="Klient.hpp" />
+		<Unit filename="Konto.cpp" />
+		<Unit filename="Konto.hpp" />
+		<Unit filename="KontoJunior.cpp" />
+		<Unit filename="KontoJunior.hpp" />
+		<Unit filename="KontoOsobiste.cpp" />
+		<Unit filename="KontoOsobiste.hpp" />
+		<Unit filename="KontoOszczednosciowe.cpp" />
+		<Unit filename="KontoOszczednosciowe.hpp" />
+		<Unit filename="Produkt.cpp" />
+		<Unit filename="Produkt.hpp" />
+		<Unit filename="Zakupy.cpp" />
+		<Unit filename="Zakupy.hpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

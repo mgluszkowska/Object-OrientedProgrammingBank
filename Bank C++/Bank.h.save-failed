@@ -1,0 +1,44 @@
+#ifndef _BANK_H_
+#define _BANK_H_
+
+#include <iostream>
+#include <sstream>
+#include <vector>
+#include <string>
+#include <algorithm>
+#include <cstdlib>
+#include "Konto.h"
+#include "KontoOsobiste.h"
+#include "KartaPlatnicza.h"
+#include "KontoOszczednosciowe.h"
+#include "KontoJunior.h"
+#include "Klient.h"
+#include "Bankomat.h"
+#include "Produkt.h"
+#include "Zakupy.h"
+using namespace std;
+
+class Bank
+{
+    float budzet;
+    vector<Klient*> klienci;
+    int liczbaKlientow;
+
+public:
+    string nazwa;
+
+    Bank(string n, float b);
+    ~Bank();
+    void daneBanku();
+    string zwrocNazwe();
+    void dodajKlienta(Klient* k);
+    void listaKlientow();
+    friend ostream& operator<<(ostream& os, Bank& b);
+    int liczbaKli();
+    void odejmijOdBudzetu(float kwota);
+    void dodajDoBudzetu(float kwota);
+    void pokazBudzet();
+};
+
+
+#endif
